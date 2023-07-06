@@ -27,6 +27,11 @@ Add the script to startup: To make the script run every time you start your comp
 
 Open Notepad and paste the following code:
 
+type:
+
+@echo off
+python "C:\path\to\your\script.py"
+
 Replace "C:\path\to\your\script.py" with the path to your Python script. Save the file with the extension .bat.
 
 Press Win+R and type shell:startup to open the Startup folder.
